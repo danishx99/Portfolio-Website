@@ -1,0 +1,41 @@
+:root {
+    --colour-bg: #1f1f38;
+    --colour-bg-2: #252547;
+    --colour-bg-variant: #2c2c6c;
+    --colour-primary: #4db5ff;
+    --colour-primary-variant: rgba(77, 181, 255, 0.4);
+    --colour-white: #fff;
+    --colour-light: rgba(255, 255, 255, 0.6);
+}
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.75rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    background: rgba(15, 1, 52, 0.3);
+}
+
+nav a.active {
+    background: var(--colour-bg);
+    color: var(--colour-white);
+}
