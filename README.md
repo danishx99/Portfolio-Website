@@ -1,3 +1,5 @@
+Personal portfolio website. Still in progress. Hosted on Firebase at https://portfolio-website-f0c34.web.app/#. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
